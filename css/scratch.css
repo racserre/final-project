@@ -1,0 +1,87 @@
+body {
+    background-color: rgba(9, 9, 100, 0.986);
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    border: 2px solid rgb(235, 232, 232);
+    padding: 2px;
+    width: 50%;
+}
+
+.centerme {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.common {
+    position: absolute;
+}
+
+.footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+    display: block;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: rgba(16, 16, 190, 0.822);
+    color: rgb(14, 13, 13);
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px grey;
+}
+
+.top-right-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mainbody {
+    top: 500px;
+}
+
+a {
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    flex: 7;
+    /* Video occupies 3 parts of the flex space (70%) */
+    height: 300px;
+    /* Adjust height as needed */
+    margin-right: 20px;
+
+}
+
+.list {
+    flex: 2;
+    /* List occupies 2 parts of the flex space (30%) */
+    padding: 10px;
+    margin-left: 300px;
+    /* Adds spacing between video and list */
+}
+.list-style{
+    list-style-type:square;
+}
